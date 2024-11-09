@@ -1,0 +1,41 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.uppercase{
+    text-transform: uppercase ;
+}
+.bolder{
+    font-weight: bolder;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.search{
+    width: 24vw;
+    padding: 4px 12px;
+    background-color: #f7f8fd;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+.homeImg{
+    width: 94vw;
+    /* height: 30vw; */
+}
+.itemImg{
+    width: 13vw;
+    margin: 7px 15px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}

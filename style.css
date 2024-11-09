@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    margin-top: -0.5%;
+    
+    
+    padding: 0;
+    
+}
+.left img{
+    width: 32px;
+    height: 23px;
+    position: absolute;
+    left: 0.5%;
+}
+
+.container{
+    padding: 0vw 2vw;
+    max-width: 95vw;
+    margin: 0vw -0.5vw;
+    
+}
+.containerHeader{ 
+    padding: 0 10vw; 
+  }
+
+header{
+    margin: 10px;
+    /* line 19,20,21 is for makingthe  nav bar sticky in top while scrolling */
+    position:sticky;
+    background-color: white;
+    top: 0;
+    padding:0 5% 0 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+       
+}
+
+nav{
+    font-size: 12px;
+    font-weight: bolder;
+    position:sticky;
+    padding: 1% 0;
+
+}
+.search{
+    width: 34vw;
+      padding: 7px 17px;
+      border: 0.5px solid grey;
+      background: #f7f8fd;
+      border-radius: 5px;
+  }
+nav ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+.section-1{
+    background-color: #d8cbf426;
+   
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    color: rgb(129, 128, 128);
+  }
+  .tall{
+    min-height: 40vh;
+  }
+  @media (max-width: 450px) { 
+    .search {
+        width: 72vw; 
+    }
+    }
+    
+    @media (max-width: 800px) { 
+    
+      nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+      
+    
+      .containerHeader {
+        padding: 0 2vw;
+    }
+      
+    header{ 
+      height:122px;
+    }  
+    
+      nav{
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .right{ 
+        flex-direction: column;
+      }
+    
+      .rightBox{
+        display: flex;
+        margin: 12px;
+      }
+      .rightBox{
+        display: flex;
+        margin: 12px;
+      }
+      .search{
+        width: 33vw;
+      }
+    
+    }
